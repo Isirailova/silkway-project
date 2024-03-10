@@ -1,0 +1,34 @@
+.gallery {
+  width: 100%;
+  height: 100%;
+
+  &__video {
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    &__part {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 900px;
+      height: 600px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    &__video {
+      &__part {
+        height: 500px;
+      }
+    }
+  }
+}

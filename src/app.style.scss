@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #2b3160;
+
+  #register {
+    background-color: rgb(18, 175, 227);
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    border: 1px solid rgb(18, 175, 227);
+  }
+  #register:hover {
+    background-color: #e07d37;
+    transform: scale(1.1);
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  &__links a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    position: relative;
+  }
+  &__links a::before,
+  &__links a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(18, 175, 227);
+    transition: width 0.3s ease-in-out;
+  }
+  &__links a::before {
+    top: 0;
+    left: 0;
+  }
+
+  &__links a::after {
+    bottom: 0;
+    right: 0;
+  }
+
+  &__links a:hover::before {
+    width: 100%;
+  }
+
+  &__links a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin-top: -40px;
+
+    &__logo img {
+      width: 60px;
+      margin-left: -5px;
+    }
+
+    &__links {
+      display: flex;
+      margin-left: -60px;
+      margin-right: 20px;
+      margin-top: 80px;
+      gap: 8px;
+    }
+
+    &__links a {
+      font-size: 12px;
+    }
+    &__btn {
+      margin-left: -100px;
+    }
+    #register {
+      display: flex;
+      width: 80px;
+      height: 15px;
+      font-size: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
