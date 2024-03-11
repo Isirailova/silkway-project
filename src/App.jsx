@@ -5,6 +5,8 @@ import ImageSlider from "./components/imageSlider/ImageSlider";
 import RacePage from "./components/racePage/RacePage";
 import InfoPage from "./components/infoPage/InfoPage";
 import GalleryPage from "./components/galleryPage/GalleryPage";
+import RegisterPage from "./components/registerPage/RegisterPage";
+import Footer from "./components/footer/Footer";
 
 import "./app.style.scss";
 
@@ -16,13 +18,15 @@ function App() {
       <RacePage />
       <InfoPage />
       <GalleryPage />
+      <RegisterPage />
+      <Footer />
     </div>
   );
 }
 
 function Navbar() {
   const scrollToSection = (sectionId, event) => {
-    event.preventDefault(); // Prevent default anchor behavior
+    event.preventDefault();
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -32,12 +36,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <img src={logoImage} alt="Marathon Logo" width="100" />
+        <img src={logoImage} alt="Marathon Logo" width="80" />
       </div>
       <div className="navbar__links">
-        {/* <a href="#main" onClick={(e) => scrollToSection("main", e)}>
-          Main
-        </a> */}
         <a href="#race" onClick={(e) => scrollToSection("race", e)}>
           Race
         </a>
@@ -49,7 +50,11 @@ function Navbar() {
         </a>
       </div>
       <div className="navbar__btn">
-        <button href="#" id="register">
+        <button
+          href="#"
+          id="register"
+          onClick={(e) => scrollToSection("registration", e)}
+        >
           Registration
         </button>
       </div>

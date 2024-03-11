@@ -25,9 +25,11 @@ function ImageSlider() {
           src={images[currentImageIndex]}
           alt={`Image ${currentImageIndex + 1}`}
         />
-        <div className="container__background1__text__overlay">
-          <p>Silkway Marathon</p>
-          <p>2024</p>
+        <div className="container__background1__text">
+          <span className="container__background1__text__border">
+            <p>Silkway Marathon</p>
+            <p>2024</p>
+          </span>
         </div>
       </div>
 

@@ -68,22 +68,24 @@
       margin-top: 35px;
       gap: 10px;
       &__container {
-        &__icon {
-          font-size: 20px;
-          margin-bottom: -10px;
+        &__one {
+          &__icon {
+            font-size: 20px;
+            margin-bottom: -10px;
+          }
+          &__link {
+            font-size: 20px;
+            margin-bottom: -10px;
+          }
         }
-        &__link {
-          font-size: 20px;
-          margin-bottom: -10px;
-        }
-      }
-      &__container2 {
-        select {
-          font-size: 15px;
-          margin-left: 10px;
-        }
-        p {
-          font-size: 18px;
+        &__two {
+          select {
+            font-size: 15px;
+            margin-left: 10px;
+          }
+          p {
+            font-size: 18px;
+          }
         }
       }
       iframe {

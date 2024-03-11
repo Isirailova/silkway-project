@@ -13,20 +13,21 @@
       height: 100%;
       transition: opacity 1s ease-in-out;
     }
-    &__text__overlay {
+    &__text {
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      //   background-color: rgba(0, 0, 0, 0.5);
       color: rgb(255, 255, 255);
-      //   padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 110px;
+      font-size: 80px;
       font-weight: bolder;
       text-align: center;
       width: 900px;
-      font-family: Snell Roundhand, cursive;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+      &__border {
+        -webkit-text-stroke: 2px rgb(18, 175, 227);
+      }
     }
   }
 
@@ -50,6 +51,11 @@
 
 @media screen and (max-width: 767px) {
   .container {
+    &__background1 {
+      &__text {
+        font-size: 40px;
+      }
+    }
     &__content {
       p {
         margin-top: -20px;
