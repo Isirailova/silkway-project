@@ -87,7 +87,7 @@ const InfoPage = () => {
         </div>
       </div>
       <div className="container2__image">
-        <img src={image} alt="race" />
+        <img src={image} alt="Race car speeding on a track" />
       </div>
     </div>
   );
