@@ -13,7 +13,7 @@ function ImageSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -27,8 +27,8 @@ function ImageSlider() {
         />
         <div className="container__background1__text">
           <span className="container__background1__text__border">
-            <p>Silkway Marathon</p>
-            <p>2024</p>
+            {/* <p>Silkway Marathon</p>
+            <p>2024</p> */}
           </span>
         </div>
       </div>

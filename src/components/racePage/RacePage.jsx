@@ -64,10 +64,14 @@ const RacePage = () => {
           ></iframe>
         )}
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-          quisquam totam officia, illum quos amet facilis ducimus inventore
-          voluptatum atque sapiente dignissimos velit modi ullam rem. Omnis
-          dolorum fugiat asperiores.
+          Experience the thrill of running through lush forests on our scenic
+          race routes. Whether you're tackling the 5km, 10km, or 15km distance,
+          each path takes you on a journey through verdant woodlands, offering a
+          refreshing escape from the hustle and bustle of daily life. Feel the
+          soft earth beneath your feet, breathe in the crisp, clean air, and let
+          the beauty of nature inspire you as you push towards the finish line.
+          Join us for a memorable adventure amidst the tranquility of the
+          forest.
         </p>
       </div>
     </div>

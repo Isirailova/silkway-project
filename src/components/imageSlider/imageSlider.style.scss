@@ -1,7 +1,7 @@
 .container {
   position: relative;
   width: 100%;
-  //   height: 100%;
+  // height: 100%;
 
   &__background1 {
     position: relative;
@@ -11,7 +11,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      transition: opacity 1s ease-in-out;
+      // transition: 0.2s ease-in-out;
     }
     &__text {
       position: absolute;
@@ -52,6 +52,9 @@
 @media screen and (max-width: 767px) {
   .container {
     &__background1 {
+      img {
+        height: 300px;
+      }
       &__text {
         font-size: 40px;
       }

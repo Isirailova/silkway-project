@@ -65,32 +65,39 @@
 @media screen and (max-width: 768px) {
   .race {
     &__content {
-      margin-top: 35px;
-      gap: 10px;
-      &__container {
-        &__one {
-          &__icon {
-            font-size: 20px;
-            margin-bottom: -10px;
-          }
-          &__link {
-            font-size: 20px;
-            margin-bottom: -10px;
-          }
-        }
-        &__two {
-          select {
-            font-size: 15px;
-            margin-left: 10px;
-          }
-          p {
-            font-size: 18px;
-          }
-        }
-      }
+      display: flex;
+      flex-direction: column;
+
       iframe {
         width: 320px;
         height: 400px;
+        margin-top: -30px;
+      }
+      p {
+        width: 350px;
+        margin-top: 20px;
+        font-size: 15px;
+      }
+    }
+
+    &__container {
+      &__one {
+        &__icon {
+          font-size: 20px;
+        }
+        &__link {
+          font-size: 20px;
+          margin-bottom: -10px;
+        }
+      }
+      &__two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: 18px;
+        }
       }
     }
   }

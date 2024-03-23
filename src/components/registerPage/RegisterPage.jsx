@@ -19,12 +19,13 @@ const RegisterPage = () => {
 
   return (
     <div className="register__page" id="registration">
-      {/* <div className="register__page__background">
+      <div className="register__page__background">
         <img
           src="https://th.bing.com/th/id/OIG3.S9CJ3HTJs8gCy9A8eLI.?w=1024&h=1024&rs=1&pid=ImgDetMain"
           alt="way line"
+          width={700}
         />
-      </div> */}
+      </div>
 
       <div className="register__page__container">
         <h2>Registration Form</h2>

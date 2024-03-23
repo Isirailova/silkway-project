@@ -3,12 +3,19 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 70px;
 
+  &__background {
+    margin-top: 50px;
+    & img {
+    }
+  }
   &__container {
     padding: 60px;
     border-radius: 20px;
-    width: 550px;
-    height: 800px;
+    width: 540px;
+    height: 770px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +120,7 @@
       padding: 20px;
       background-color: rgba(18, 175, 227, 0.19);
       width: 450px;
-      height: 320px;
+      height: 300px;
       margin-top: 10px;
       border-radius: 20px;
       border: 1px solid rgb(18, 175, 227);
@@ -148,25 +155,25 @@
             }
           }
         }
+        &__button {
+          width: 100%;
+          padding: 10px;
+          margin-top: 30px;
+          margin-bottom: 50px;
+          background-color: #19a0eea6;
+          color: #000000;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #386ca3;
+          }
+        }
       }
     }
-  }
-}
-button {
-  width: 100%;
-  padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: #19a0eea6;
-  color: #000000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #386ca3;
   }
 }
 
@@ -175,22 +182,22 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     &__background img {
-      height: 1200px;
+      display: none;
     }
     &__container {
-      width: 200px;
+      width: 350px;
       height: 350px;
-      margin-left: 30px;
 
-      &__back {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -40px;
-        height: 200px;
-      }
+      // &__back {
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   margin-left: -40px;
+      //   height: 200px;
+      // }
       h2 {
         font-size: 15px;
       }
@@ -228,6 +235,9 @@ button {
           margin-top: 10px;
           font-size: 15px;
         }
+      }
+      &__payment {
+        width: 350px;
       }
     }
     .back__card {
