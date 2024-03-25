@@ -19,7 +19,7 @@ const Questions = () => {
     "On May 11 at 8 am.",
     "Everyone who wants can participate.",
     "The cost per person is $55.00.",
-    "In Busse Woods Park, Elk Grove Township, IL",
+    "Busse Woods Park, Elk Grove, IL 60008",
   ];
 
   return (
