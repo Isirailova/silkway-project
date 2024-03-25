@@ -36,7 +36,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <img src={logoImage} alt="Marathon Logo" width="80" />
+        <img src={logoImage} alt="Marathon" width="80" />
       </div>
       <div className="navbar__links">
         <a href="#race" onClick={(e) => scrollToSection("race", e)}>
