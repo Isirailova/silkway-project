@@ -5,6 +5,7 @@ import ImageSlider from "./components/imageSlider/ImageSlider";
 import RacePage from "./components/racePage/RacePage";
 import InfoPage from "./components/infoPage/InfoPage";
 import GalleryPage from "./components/galleryPage/GalleryPage";
+import Questions from "./components/questions/Questions";
 import RegisterPage from "./components/registerPage/RegisterPage";
 import Footer from "./components/footer/Footer";
 
@@ -18,6 +19,7 @@ function App() {
       <RacePage />
       <InfoPage />
       <GalleryPage />
+      <Questions />
       <RegisterPage />
       <Footer />
     </div>
