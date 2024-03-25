@@ -1,0 +1,53 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  &__content {
+    border: 1px solid #0099ff;
+    border-radius: 5px;
+    overflow: hidden;
+
+    ol {
+      list-style-type: none;
+      padding: 20px;
+      font-size: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      p {
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 20px;
+      }
+    }
+    &__part {
+      width: 800px;
+      cursor: pointer;
+      padding: 15px 20px;
+      background-color: rgba(18, 175, 227, 0.19);
+      border-bottom: 1px solid #0099ff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.3s ease;
+
+      &__part:hover {
+        background-color: #e0e0e0;
+      }
+    }
+  }
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+.open {
+  transform: rotate(180deg);
+}

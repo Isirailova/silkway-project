@@ -11,27 +11,28 @@
   padding: 50px;
   margin-top: 55px;
   margin-left: 70px;
-  gap: 70px;
+  gap: 90px;
 
   h1 {
     display: flex;
     color: rgb(0, 0, 0);
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   &__schedule {
-    font-size: 25px;
-    gap: 20px;
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
     &__details {
-      margin-top: 35px;
+      margin-top: 30px;
       a {
         color: rgb(0, 0, 0);
       }
-      & p {
+      p {
         margin: 15px 0;
-        font-size: 25px;
+        font-size: 22px;
       }
     }
   }
@@ -48,11 +49,12 @@
     flex-direction: column;
     justify-content: center;
     width: 350px;
-    height: 600px;
+    height: 400px;
     margin-left: 20px;
+    margin-top: 20px;
 
     h1 {
-      font-size: 20px;
+      font-size: 18px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -62,15 +64,15 @@
       flex-direction: column;
       justify-content: center;
       font-size: 18px;
-      margin-left: -10px;
+      margin-left: -20px;
 
       &__details {
         margin-top: 5px;
         strong {
-          font-size: 20px;
+          font-size: 15px;
         }
         a {
-          font-size: 20px;
+          font-size: 15px;
         }
       }
     }

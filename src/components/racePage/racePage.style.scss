@@ -1,7 +1,6 @@
 .race {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 
   &__container {
     display: flex;
@@ -16,16 +15,20 @@
       }
       &__link {
         text-decoration: underline;
-        // font-weight: bold;
-        font-size: 25px;
+        font-size: 30px;
         color: rgb(0, 0, 0);
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
     }
     &__two {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
       p {
-        font-size: 25px;
-        padding: 20px;
+        font-size: 23px;
+        padding: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
       & select {
         padding: 5px;
