@@ -4,14 +4,15 @@ import "./galleryPage.style.scss";
 
 const GalleryPage = () => {
   const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [setIsPlaying] = useState(false);
 
   const togglePlay = () => {
-    if (videoRef.current.paused) {
-      videoRef.current.play();
+    const videoElement = videoRef.current;
+    if (videoElement.paused) {
+      videoElement.play();
       setIsPlaying(true);
     } else {
-      videoRef.current.pause();
+      videoElement.pause();
       setIsPlaying(false);
     }
   };

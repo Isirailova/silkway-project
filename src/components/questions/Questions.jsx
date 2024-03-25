@@ -16,10 +16,10 @@ const Questions = () => {
   ];
 
   const answers = [
-    "The marathon will take place on May 11 at 8 am.",
+    "On May 11 at 8 am.",
     "Everyone who wants can participate.",
     "The cost per person is $55.00.",
-    "The marathon will take place in Busse Woods Park, Elk Grove Township, IL, USA!",
+    "In Busse Woods Park, Elk Grove Township, IL",
   ];
 
   return (

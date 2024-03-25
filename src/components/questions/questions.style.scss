@@ -51,3 +51,36 @@
 .open {
   transform: rotate(180deg);
 }
+
+@media screen and (max-width: 767px) {
+  .questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    h2 {
+      font-size: 22px;
+    }
+
+    &__content {
+      ol {
+        font-size: 13px;
+        p {
+          font-size: 13px;
+          margin-left: -10px;
+        }
+      }
+      &__part {
+        width: 290px;
+      }
+    }
+  }
+}
+.arrow {
+  font-size: 15px;
+}
+
+.open {
+  transform: rotate(180deg);
+}
