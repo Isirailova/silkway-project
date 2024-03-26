@@ -27,17 +27,17 @@ const Countdown = () => {
               <span className="countdown__unit__number">{days}</span>
               <span className="countdown__unit__label">days</span>
             </span>
-
+            ●
             <span className="countdown__unit">
               <span className="countdown__unit__number">{hours}</span>
               <span className="countdown__unit__label">hours</span>
             </span>
-
+            ●
             <span className="countdown__unit">
               <span className="countdown__unit__number">{minutes}</span>
               <span className="countdown__unit__label">minutes</span>
             </span>
-
+            ●
             <span className="countdown__unit">
               <span className="countdown__unit__number">{seconds}</span>
               <span className="countdown__unit__label">seconds</span>
