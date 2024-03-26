@@ -57,7 +57,7 @@ function Navbar() {
           id="register"
           onClick={(e) => scrollToSection("registration", e)}
         >
-          Registration
+          Register
         </button>
       </div>
     </div>
