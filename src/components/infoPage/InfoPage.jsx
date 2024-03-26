@@ -44,21 +44,21 @@ const InfoPage = () => {
 
         <p>
           <strong>
-            <span style={{ color: "rgb(18, 175, 227)" }}>12:00 am </span>
+            <span style={{ color: "rgb(18, 175, 227)" }}>12:00 pm </span>
           </strong>
           - Congratulations & Awards
         </p>
 
         <p>
           <strong>
-            <span style={{ color: "rgb(18, 175, 227)" }}>14:00 am </span>
+            <span style={{ color: "rgb(18, 175, 227)" }}>14:00 pm </span>
           </strong>
           - Lunch
         </p>
 
         <p>
           <strong>
-            <span style={{ color: "rgb(18, 175, 227)" }}>15:00 am </span>
+            <span style={{ color: "rgb(18, 175, 227)" }}>15:00 pm </span>
           </strong>
           - Concert
         </p>

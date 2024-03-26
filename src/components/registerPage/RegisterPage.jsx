@@ -53,7 +53,10 @@ const RegisterPage = () => {
               </select>
             </div>
           </div>
-          <div className="register__page__container__form__group">
+          <div
+            className="register__page__container__form__group"
+            style={{ display: "flex", flexDirection: "column" }}
+          >
             <label htmlFor="email">Email:</label>
             <input type="email" id="email" name="email" />
           </div>
